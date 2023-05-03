@@ -25,10 +25,12 @@ body {
     height: 85vh;
 }
 
+/* Left side */
 #home {
     padding: 4rem 3rem 4rem 4rem;
 }
 
+/* CSS for logo, log-in and sign-up button */
 #logo-login {
     display: flex;
     justify-content: space-between;
@@ -67,6 +69,7 @@ body {
     font-weight: var(--font-bold);
 }
 
+/* CSS for Heading and para */
 h1 {
     font-size: 2.3rem;
     padding-top: 4.4rem;
@@ -79,6 +82,8 @@ p {
     padding: 0.5rem 0 2.4rem;
 }
 
+
+/* CSS for location input and button */
 input {
     width: 74%;
     font-size: 1rem;
@@ -100,6 +105,7 @@ input {
     cursor: pointer;
 }
 
+/* CSS for cities list */
 #pop-cities {
     font-size: 0.9rem;
     padding: 2rem 0 0.8rem;
@@ -127,6 +133,7 @@ input {
     opacity: 0.6;
 }
 
+/* Home section - Right side image */
 #lunch-img {
     background: url("image/lunch_img.webp") no-repeat center center/cover;
 }
@@ -170,6 +177,8 @@ input {
     grid-template-columns: 42vw 58vw;
 }
 
+
+/* CSS for App download icon */
 #download {
     padding: 10rem 7rem 7rem 4rem;
     letter-spacing: 0.2px;
@@ -191,6 +200,7 @@ input {
     padding-right: 0.9rem
 }
 
+/* CSS for mobile images */
 #mob-img {
     display: flex;
 }
@@ -218,6 +228,7 @@ footer {
     grid-template-columns: 310px 310px 410px 319px;
 }
 
+/* CSS for footer list */
 .footer-div {
     padding: 5rem;
     letter-spacing: 0.6px;
@@ -247,7 +258,7 @@ footer li a {
     text-decoration: none;
 }
 
-
+/* CSS for footer App download icon */
 .footer-icon {
     width: 172px;
     height: 58px;
